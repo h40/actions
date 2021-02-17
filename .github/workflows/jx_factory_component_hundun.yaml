@@ -2,8 +2,8 @@ name: jx_factory_component_hundun
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "*/10 * * * *"
+  # schedule:
+  #   - cron: "*/10 * * * *"
   watch:
     types: [started]
   repository_dispatch:
